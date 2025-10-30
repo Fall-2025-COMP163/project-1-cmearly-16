@@ -1,0 +1,9 @@
+Name: José
+Class: Warrior
+Level: 1
+XP: 0
+Stats: {'Strength': 15, 'Magic': 3, 'Health': 120, 'Gold': 120}
+Equipment: {'Weapon': 'Longsword', 'Gear': ['Chainmail', 'Shield']}
+Abilities: ['Power Strike', 'Taunt']
+Pathway: Guardian
+Backstory: José grew up as a blacksmith's apprentice and chose the path of the warrior. As a Guardian, José has always been drawn to adventure.
