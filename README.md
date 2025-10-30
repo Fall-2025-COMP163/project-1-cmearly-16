@@ -8,7 +8,7 @@ Build a text-based RPG character creation and story progression system that demo
 # Required Functions 
 Complete these functions in project1_starter.py:
 
-create_character(name, character_class) - Create new character
+hi
 
 calculate_stats(character_class, level) - Calculate character stats
 
