@@ -1,7 +1,6 @@
 import os
 
 def calculate_stats(char_class, level=1):
-    """Return (strength, magic, health) for a given class and level."""
     if char_class == "Warrior":
         strength = 10 + 5 * level
         magic = 3 * level
@@ -24,9 +23,7 @@ def calculate_stats(char_class, level=1):
         health = 80 + 10 * level
     return strength, magic, health
 
-
 def create_character(name=None, char_class=None):
-    """Create and return a character dictionary."""
     if name is None:
         name = ""
     if char_class is None:
@@ -85,7 +82,6 @@ def create_character(name=None, char_class=None):
 
 
 def level_up(character):
-    """Increase level and improve stats."""
     if not character:
         return None
     character["level"] = character["level"] + 1
@@ -98,7 +94,6 @@ def level_up(character):
 
 
 def display_character(character):
-    """Print character info to console."""
     if not character:
         return
     print("=== CHARACTER SHEET ===")
@@ -118,7 +113,6 @@ def display_character(character):
 
 
 def save_character(character, filename):
-    """Save character data to a text file."""
     if not filename or not isinstance(filename, str):
         return False
     directory = os.path.dirname(os.path.normpath(filename))
@@ -148,7 +142,6 @@ def save_character(character, filename):
 
 
 def load_character(filename):
-    """Load character data from a text file."""
     if not os.path.exists(filename):
         return None
 
