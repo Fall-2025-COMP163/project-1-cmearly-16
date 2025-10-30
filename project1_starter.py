@@ -1,5 +1,7 @@
 import os
-
+# Christopher Early
+# Project 1 - COMP163
+# AI was used to help create this program. Originally, my plan was to create a simple game with not many mechanics, however I received some ideas that I felt were good to implement after asking the AI to look over my code for debugging. This resulting in the AI adding in and developing my character creation coding section and the save and load file features. However the AI used "Try" and "Except" so I had to go back and modify them to be if else statements, which was a challenge.
 def calculate_stats(char_class, level=1):
     if char_class == "Warrior":
         strength = 10 + 5 * level
